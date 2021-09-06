@@ -28,6 +28,11 @@ def concepToMartes():
 def conceptoPython():
     return 'es un lenguaje de programacion'
 
+@aplicacion.route('/lunes')
+def conceptoLunes():
+    return 'es el primer dia de la semana'
+
+
 @aplicacion.route('/definicion')
 def definiciones():
     #ip:puerto/definicion?c=byte
